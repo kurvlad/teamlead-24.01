@@ -203,7 +203,7 @@ body {
 
 /* 2 блок */
 .compose_left_card, .compose_right_card {
-  background-image: url('/image/compose-left-right.jpg');
+  background-image: url('../image/compose-left-right.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
