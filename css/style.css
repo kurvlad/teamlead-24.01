@@ -203,7 +203,8 @@ body {
 
 /* 2 блок */
 .compose_left_card, .compose_right_card {
-  background-image: url('../image/compose-left-right.jpg');
+  /* background-image: url('../image/compose-left-right.jpg'); */
+  background: linear-gradient(blue, rgb(252, 9, 49));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -295,7 +296,7 @@ body {
 }
 
 .cost-new {
-  animation: text 1s infinite;
+  animation: text .6s infinite;
   position: absolute;
   /* padding-left: 150px; */
   /* margin-bottom: 20px; */
@@ -304,10 +305,11 @@ body {
   text-align: center;
 }
 
-.newcosttest{
+.newcosttest {
   justify-content: center;
   height: 1.5em;
 }
+
 a {
   padding: 25px 34px;
 }
@@ -548,4 +550,21 @@ a:hover, a:active, a.focus {
     animation: none;
     padding-left: 0;
   }
+}
+
+
+
+
+.carousel-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.carousel-caption-bottom {
+  text-align: center;
+}
+
+.carousel-back {
+  background: linear-gradient(0deg, rgba(195, 182, 34, 1) 0%, rgba(253, 45, 60, 1) 100%);
 }
